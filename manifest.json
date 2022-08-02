@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Copy Relative URL",
+  "description": "A very simple extension to copy the relative path of a URL",
+  "version": "1.0",
+  "homepage_url": "https://github.com/cody1213/copy-relative-url",
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "icons": {
+    "48": "icon.svg",
+    "96": "icon.svg"
+  },
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "clipboardWrite"
+  ]
+}
